@@ -8,6 +8,8 @@ import org.sherwoodhs.quest.OtherSideQuest;
 import org.sherwoodhs.situation.SitType;
 import org.sherwoodhs.situation.Situation;
 
+import javax.swing.*;
+
 /*
  This event occurs when you select the "nothing to return to" option in OtherSide1_0_0D.
  This only is selectable when the world basically hates you.
@@ -67,5 +69,10 @@ public class OtherSide1_1_0D implements Situation {
                 OtherSideQuest.advanceQuest();
                 break;
         }
+    }
+
+    @Override
+    public ImageIcon prevImg(ImageIcon img) {
+        return null;
     }
 }

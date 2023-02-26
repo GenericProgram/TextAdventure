@@ -4,6 +4,8 @@ import org.sherwoodhs.AdvGame;
 import org.sherwoodhs.quest.StolenFurnQuest;
 import org.sherwoodhs.situation.SitType;
 import org.sherwoodhs.situation.Situation;
+
+import javax.swing.*;
 /*
 The first situation inside the ikea. Moves the player towards the bedroom section.
  */
@@ -47,6 +49,11 @@ public class EntranceSituation_1E implements Situation {
             case "Staff only":
                 AdvGame.updateFrame("You realize you would never want to work here.");
         }
+    }
+
+    @Override
+    public ImageIcon prevImg(ImageIcon img) {
+        return null;
     }
 
     public static Situation getInstance(){

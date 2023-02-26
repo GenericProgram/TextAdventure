@@ -1,13 +1,11 @@
 package org.sherwoodhs.situation.Haven;
 
 import org.sherwoodhs.AdvGame;
-import org.sherwoodhs.npc.foundation.FoundationGuard;
-import org.sherwoodhs.situation.Clearwater.ClearwaterKiosk1_0E;
 import org.sherwoodhs.situation.FoundationIntroduction.FoundationIntro_1D;
-import org.sherwoodhs.situation.IkeaEntrance.EntranceSituation_1E;
-import org.sherwoodhs.situation.LocationOptions.HiddenAlcove.HiddenAlcove1_0E;
 import org.sherwoodhs.situation.SitType;
 import org.sherwoodhs.situation.Situation;
+
+import javax.swing.*;
 
 public class HavenCenter_E implements Situation {
 
@@ -43,6 +41,12 @@ public class HavenCenter_E implements Situation {
         }
 
     }
+
+    @Override
+    public ImageIcon prevImg(ImageIcon img) {
+        return null;
+    }
+
     public static Situation getInstance(){
         return situation;
     }

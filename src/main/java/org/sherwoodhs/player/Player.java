@@ -1,7 +1,5 @@
 package org.sherwoodhs.player;
 
-import com.sun.corba.se.impl.encoding.BufferManagerWriteCollect;
-
 import javax.swing.*;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -47,7 +45,7 @@ public class Player {
             do {
                 if(savedName.exists()){
                     name = readSavedName();
-                     b = false;
+                    b = false;
                 } else {
                     name = JOptionPane.showInputDialog(null, "Enter your name: ", "Name", 3);
                     if (name.isEmpty() || nameHasNums() || nameHasSpCh() || charCap()) {

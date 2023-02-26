@@ -6,6 +6,8 @@ import org.sherwoodhs.situation.Dialogue;
 import org.sherwoodhs.situation.SitType;
 import org.sherwoodhs.situation.Situation;
 
+import javax.swing.*;
+
 
 /*
     This is where the player starts to notice something is up. They meet a strange character who yells at them for being so close to the edge.
@@ -37,6 +39,11 @@ public class EntranceSituation_2E extends Dialogue {
 
     @Override
     public SitType getSitType() {return SitType.Dialogue;}
+
+    @Override
+    public ImageIcon prevImg(ImageIcon img) {
+        return null;
+    }
 
 
     @Override

@@ -8,6 +8,8 @@ import org.sherwoodhs.player.Player;
 import org.sherwoodhs.situation.SitType;
 import org.sherwoodhs.situation.Situation;
 
+import javax.swing.*;
+
 public class ClearwaterKiosk1_2D implements Situation {
 
     Player player = Player.getInstance();
@@ -43,6 +45,11 @@ public class ClearwaterKiosk1_2D implements Situation {
             case " ":
                 break;
         }
+    }
+
+    @Override
+    public ImageIcon prevImg(ImageIcon img) {
+        return null;
     }
 
     public static Situation getInstance(){

@@ -10,6 +10,8 @@ import org.sherwoodhs.situation.Haven.HavenCenter_E;
 import org.sherwoodhs.situation.SitType;
 import org.sherwoodhs.situation.Situation;
 
+import javax.swing.*;
+
 public class ClearwaterKiosk1_0E implements Situation {
 
     Player player = Player.getInstance();
@@ -53,6 +55,11 @@ public class ClearwaterKiosk1_0E implements Situation {
                 AdvGame.setSituation(HavenCenter_E.getInstance());
                 break;
         }
+    }
+
+    @Override
+    public ImageIcon prevImg(ImageIcon img) {
+        return null;
     }
 
     public static Situation getInstance(){

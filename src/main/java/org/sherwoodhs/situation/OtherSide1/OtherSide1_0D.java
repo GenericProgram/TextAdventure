@@ -6,6 +6,9 @@ import org.sherwoodhs.npc.Alchemist;
 import org.sherwoodhs.npc.NPC;
 import org.sherwoodhs.situation.SitType;
 import org.sherwoodhs.situation.Situation;
+
+import javax.swing.*;
+
 /*
     This is where you first meet the mysterious Alchemist(At this point, known as ?????).
     This only happens on your first entrance of the Hidden Alcove.
@@ -88,6 +91,11 @@ public class OtherSide1_0D implements Situation {
                 break;
 
         }
+    }
+
+    @Override
+    public ImageIcon prevImg(ImageIcon img) {
+        return null;
     }
 
 

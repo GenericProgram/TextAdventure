@@ -7,6 +7,8 @@ import org.sherwoodhs.situation.Haven.HavenCenter_E;
 import org.sherwoodhs.situation.SitType;
 import org.sherwoodhs.situation.Situation;
 
+import javax.swing.*;
+
 public class FoundationIntro_1D implements Situation {
     private static Situation situation = new FoundationIntro_1D();
     NPC Guard = FoundationGuard.getInstance();
@@ -43,6 +45,11 @@ public class FoundationIntro_1D implements Situation {
                 break;
         }
 
+    }
+
+    @Override
+    public ImageIcon prevImg(ImageIcon img) {
+        return null;
     }
 
     public static Situation getInstance(){
