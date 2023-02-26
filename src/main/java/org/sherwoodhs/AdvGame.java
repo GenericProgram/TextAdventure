@@ -11,6 +11,7 @@ import java.awt.*;
 
 import static org.sherwoodhs.ui.ActionPanel.actionPanel;
 import static org.sherwoodhs.ui.Frame.FRAME;
+import static org.sherwoodhs.ui.MapPanel.mapPanel;
 import static org.sherwoodhs.ui.SituationPanel.situationPanel;
 import static org.sherwoodhs.ui.TextPanel.textPanel;
 import static org.sherwoodhs.ui.QuestPanel.questPanel;
@@ -57,6 +58,7 @@ public class AdvGame {
     /* Updates the frame */
     public static void updateFrame() {
         situationPanel.setSituationLabel(currentSituation.getTitle()); // Changes Situation Title
+        mapPanel.updateImg();
         textPanel.clearAllText(); // Empties the textfield
         textPanel.addText(currentSituation.getDescription()); // Changes textfield description
         textPanel.setBorder(new TitledBorder(currentSituation.getSitType().toString())); //setTitled border title

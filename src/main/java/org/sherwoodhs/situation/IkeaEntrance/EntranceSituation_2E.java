@@ -41,7 +41,7 @@ public class EntranceSituation_2E extends Dialogue {
     public SitType getSitType() {return SitType.Dialogue;}
 
     @Override
-    public ImageIcon prevImg(ImageIcon img) {
+    public ImageIcon prevImg() {
         return null;
     }
 

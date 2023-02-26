@@ -43,7 +43,7 @@ public class HavenCenter_E implements Situation {
     }
 
     @Override
-    public ImageIcon prevImg(ImageIcon img) {
+    public ImageIcon prevImg() {
         return null;
     }
 

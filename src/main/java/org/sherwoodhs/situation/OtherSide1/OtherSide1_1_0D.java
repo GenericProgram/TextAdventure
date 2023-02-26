@@ -72,7 +72,7 @@ public class OtherSide1_1_0D implements Situation {
     }
 
     @Override
-    public ImageIcon prevImg(ImageIcon img) {
+    public ImageIcon prevImg() {
         return null;
     }
 }

@@ -52,7 +52,7 @@ public class HiddenAlcove1_1_1E implements Situation {
     }
 
     @Override
-    public ImageIcon prevImg(ImageIcon img) {
+    public ImageIcon prevImg() {
         return null;
     }
 

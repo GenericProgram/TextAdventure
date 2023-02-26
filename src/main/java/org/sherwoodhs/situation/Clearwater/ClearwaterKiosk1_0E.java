@@ -58,7 +58,7 @@ public class ClearwaterKiosk1_0E implements Situation {
     }
 
     @Override
-    public ImageIcon prevImg(ImageIcon img) {
+    public ImageIcon prevImg() {
         return null;
     }
 

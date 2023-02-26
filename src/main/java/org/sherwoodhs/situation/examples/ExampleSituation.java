@@ -82,7 +82,7 @@ public class ExampleSituation implements Situation {
     }
 
     @Override
-    public ImageIcon prevImg(ImageIcon img) {
+    public ImageIcon prevImg() {
         return null;
     }
 

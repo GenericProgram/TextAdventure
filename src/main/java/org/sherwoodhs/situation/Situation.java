@@ -15,7 +15,7 @@ public interface Situation {
 
     public abstract void perform(String option);
 
-    public abstract ImageIcon prevImg(ImageIcon img);
+    public abstract ImageIcon prevImg();
 
 /*
 

@@ -52,8 +52,8 @@ public class EntranceSituation_1E implements Situation {
     }
 
     @Override
-    public ImageIcon prevImg(ImageIcon img) {
-        return null;
+    public ImageIcon prevImg() {
+        return new ImageIcon("src/main/java/org/sherwoodhs/imgs/entrance/thebeyond.jpg");
     }
 
     public static Situation getInstance(){

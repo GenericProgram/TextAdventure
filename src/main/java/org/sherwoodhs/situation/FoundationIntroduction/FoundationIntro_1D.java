@@ -48,7 +48,7 @@ public class FoundationIntro_1D implements Situation {
     }
 
     @Override
-    public ImageIcon prevImg(ImageIcon img) {
+    public ImageIcon prevImg() {
         return null;
     }
 
